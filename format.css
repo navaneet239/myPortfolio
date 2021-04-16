@@ -1,0 +1,173 @@
+  
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+
+
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #006eff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(102, 156, 218);
+    width: 32%;
+
+
+  }
+  
+  .tablink:hover {
+    background-color: #08305e;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: black;
+    display: none;
+    
+    padding: 100px 20px;
+    height: 120%;
+    background-image: url("white_bk.jpg")
+  }
+  
+  #1 {background-color: red;}
+  #2 {background-color: red;}
+  #3 {background-color: red;}
+  #4 {background-color: red;}
+
+  body, html {
+    height: 100%;
+}
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("art.jpg");
+
+
+
+  /* middle height */
+  height: 50%;
+
+
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+/* Page content */
+.content {
+  padding: 20px;
+  text-align: center;
+
+
+}
+
+
+
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #006eff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(102, 156, 218);
+}
+
+.button:hover {background-color: #0d3f81}
+
+.button:active {
+  background-color: #0d3f81;
+  box-shadow: 0 5px rgb(102, 156, 218);
+  transform: translateY(4px);
+}
+
+/* Large rounded green border */
+.hrB {
+  border: 5px solid rgb(0, 89, 255);
+  border-radius: 5px;
+}
+
+
+
+.img {
+  position: relative;
+  border: 5px solid rgb(20, 82, 197);
+  border-radius: 10px;
+
+}
+
+
+
+
+.img2 {
+  border: 5px solid rgb(20, 82, 197);
+  border-radius: 10px;
+  background-color: rgba(0,0,0, 0.4);
+}
+
+.subt {
+  border: 5px solid rgb(197, 20, 20);
+  border-radius: 10px;
+  width: 40%;
+  background-color: rgba(0,0,0, 0.4);
+}
+
+
